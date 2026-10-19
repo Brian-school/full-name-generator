@@ -15,9 +15,9 @@ public class FullNameApplication {
         System.out.printf("Suffix: ");
         String suffix = sc.nextLine().trim();
 
-        System.out.printf("Your name: %s %s %s%s%s",
+        System.out.printf("Your name: %s%s%s%s%s",
                 firstName,
-                middleName,
+                (middleName.isEmpty()) ? " " : " " + middleName + " ",
                 lastName,
                 (suffix.isEmpty()) ? " " : ", ",
                 suffix);
