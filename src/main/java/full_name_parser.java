@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 import static java.lang.IO.println;
-import
+
 
 public class full_name_parser {
     public static String [] remove(String [] arr, int whichIndex) {
